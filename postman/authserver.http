@@ -1,0 +1,21 @@
+### Listar usuários
+GET localhost:8080/api/users
+
+### Criar usuário
+POST localhost:8080/api/users
+Content-Type: application/json
+
+{
+    "name": "João",
+    "email": "joao@gmail.com",
+    "password": "123456"
+}
+
+### Listar usuário 1
+GET localhost:8080/api/users/1
+
+### Listar usuário 2
+GET localhost:8080/api/users/2
+
+### Listar usuário 400
+GET localhost:8080/api/users/400
